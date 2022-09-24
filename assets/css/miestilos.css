@@ -1,0 +1,134 @@
+
+/*hacer un scroll box */
+.scroll-box {
+    background: #f4f4f4;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    height: 400px;
+    padding: 15px;
+    overflow-y: scroll;
+}
+
+.scroll-box-mensaje {
+    background: #f4f4f4;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    height: 10px;
+    padding: 15px;
+    overflow-y: scroll;
+}
+
+.textarea {
+       max-height: 200px;
+       resize: none;
+       overflow-y: scroll;
+}
+
+/*cambiar texto de las paginas a blanco (titulos, subtitlos, etc.) */
+
+#texto {
+      color: white;
+}
+
+/*elementos de las tablas dinamicas (datatable) */
+
+/*fondo del numero activo en la paginacion*/
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff;
+    background-color: red;
+    border-color: #dee2e6;
+}
+
+/*cambiar color de los numeros de la paginacion*/
+.page-link{
+  color: black;
+}
+
+#fondo{
+  background-image: url("../img/Fondo1.jpeg");
+      background-repeat: repeat;
+     background-attachment: fixed;
+     background-size: 100% 100%;
+}
+h1{
+    color: black;
+    text-align: center;
+   font-weight: bold;
+   font-style: italic;       
+  font-family: fantasy;
+   font-size: 7mm;
+   opacity: 0.8;
+ 
+   }
+
+   .texto{
+      font-size: 8mm;
+      color: gray;
+      opacity: 0.8;
+      font-style: oblique;
+      text-align: center;
+      text-decoration: underline;
+   }
+
+.h1{
+    color: black;
+    text-align: center;
+   font-weight: bold;
+   font-style: Arial;        
+   font-family: monospace;
+   font-size: 3mm;
+ 
+   }
+
+   .h2{
+    color: white;
+    text-align: center;
+   font-weight: bold;
+   font-style: Arial;        
+   font-family: monospace;
+   font-size: 4mm;
+
+   }
+
+   .h3{
+    color: seashell;
+    text-align: center;
+   font-weight: bold;
+   font-style: unset;       
+   font-family: monospace;
+   font-size: 5mm;
+
+   }
+
+   .a{
+      color: black;
+font-size: 7mm;
+
+   }
+
+   .img{
+
+text-align: center;
+
+   }
+
+   .video{
+
+    text-align: center;
+   }
+
+   .tabla{
+    color: black;
+    font-size: 10mm;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    padding-right: 300px;
+
+   }
+
+   .body{
+      background-color: black;
+   }
+   .nav-link{
+      color: white;
+   }
